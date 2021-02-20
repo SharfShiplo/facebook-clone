@@ -1,0 +1,107 @@
+.post {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+.post__top {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+}
+.post__avatar {
+  margin-right: 10px;
+}
+.post_topInfo > h3 {
+  font-size: medium;
+}
+.post_topInfo > p {
+  font-size: small;
+  color: gray;
+}
+.post__bottom {
+  padding: 0px 15px 15px;
+}
+.post__image > img {
+  width: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+}
+.post__options {
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post__option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex: 1;
+  transition: all 0.1s ease-in;
+}
+.post__option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+.Post__optionLiked > .MuiSvgIcon-root {
+  color: #2e81f4 !important;
+}
+.Post__optionLiked > p {
+  color: #2e81f4;
+}
+.post__option > p {
+  margin-left: 10px;
+}
+.post__commentsSend {
+  padding: 4px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__commentsSend > form {
+  margin: 0 0 0 10px;
+  flex: 1;
+}
+.post__commentsSend > form > input {
+  display: block;
+  width: 100%;
+  outline-width: 0;
+  border: none;
+  padding: 10px;
+  background-color: #e4e6eb;
+  border-radius: 999px;
+  box-sizing: border-box;
+}
+.post__commentsSend > form > button {
+  display: none;
+}
+.post__commentsLoad {
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+}
+.post__commentsInfo {
+  width: fit-content;
+  margin-left: 10px;
+  padding: 5px 12px;
+  background-color: #e4e6eb;
+  border-radius: 999px;
+}
+
+.post__commentsInfo > h4 {
+  font-size: small;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.post__commentsInfo > p {
+  font-size: medium;
+}
